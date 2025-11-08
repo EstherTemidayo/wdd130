@@ -27,5 +27,34 @@ h1 {
 main {
     margin: 0 auto;
     max-width: 450px;
+}
+
+picture img {
     display: block;
+    max-width: 450px;
+    box-shadow: 7px 7px 20px #333333;
+    margin-bottom: 30px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #dddddd;
+    line-height: 1.5em;
+}
+
+section h2 {
+    border-bottom: 1px solid #111111;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-top: 15px;
+    padding-left: 0 10px;
+}
+
+section ul {
+    margin-left: 20px;
+    padding: 0 10px;
 }
