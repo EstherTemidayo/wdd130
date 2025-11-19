@@ -8,11 +8,6 @@
     --body-font: Arial, Helvetica, sans-serif; 
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -27,10 +22,9 @@ body {
 header, main, footer {
     width: 840px;
     margin: 0 auto;
-    padding: 20px;
 }
 
-h1{
+h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color)
 }
@@ -40,9 +34,6 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
 
 .hero {
     position: relative;
@@ -56,31 +47,64 @@ nav, p, section, article {
 
 h1 {
     position: absolute;
-    top: 10px;
-    width: 50%;
-    padding: 16px;
+    top: 5px;
+    width: 100%;
+    padding: 10px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
+    color: var(--accent2-color)
 }
 
 .hero article {
-    width: 250px;
-    float: right;
     position: absolute;
+    opacity: 0.9;
+    top: 295px;
+    right: 3px;
+    width: 100%;
 }
 
 .hero article img {
-    width: 250px;
+    top: 30px;
     float: right;
+    width: 125px;
+    margin-top: 30px;
 }
 
-/*.hero article img p {
-    position: absolute;
-    top: 20px;
+.hero article p {
     width: 100%;
-    padding: 16px;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: var(--body-font);
     text-align: center;
-    opacity: 0.8;
-    background-color: var(--secondary-color);
-} */
+    opacity: 10;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+h2 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: var(--heading-font);
+    border-radius: 25px;
+    border-color: var(--accent2-color);
+    border-style: solid;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    text-decoration: none;
+    width: 32px;
+    height: auto;
+    margin: 0 8px;
+}
