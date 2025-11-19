@@ -73,7 +73,7 @@ h1 {
     float: right;
 } */
 
-.hero article img p {
+/*.hero article img p {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -81,4 +81,4 @@ h1 {
     text-align: center;
     opacity: 0.8;
     background-color: var(--secondary-color);
-}
+} */
