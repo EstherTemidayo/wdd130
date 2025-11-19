@@ -29,7 +29,7 @@ header, main, footer {
     padding: 20px;
 }
 
-h1, h2 {
+h1{
     font-family: var(--heading-font);
     color: var(--accent2-color)
 }
@@ -63,15 +63,16 @@ h1 {
     background-color: var(--secondary-color);
 }
 
+.hero article {
+    width: 250px;
+    float: right;
+    position: absolute;
+}
+
 .hero article img {
     width: 250px;
     float: right;
 }
-
-/*.hero article img {
-    width: 250px;
-    float: right;
-} */
 
 /*.hero article img p {
     position: absolute;
