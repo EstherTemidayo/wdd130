@@ -91,10 +91,13 @@ h2 {
     color: var(--primary-color);
     background-color: var(--accent1-color);
     padding-top: 7px;
-    padding-bottom: 7px;
     font-family: var(--heading-font);
     border-radius: 25px;
     border-style: solid;
+}
+
+h2 p {
+    padding: auto;
 }
 
 .socialmedia a {
