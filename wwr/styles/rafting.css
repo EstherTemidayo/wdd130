@@ -86,15 +86,14 @@ h1 {
 
 h2 {
     position: relative;
-    width: 50%;
+    width: 100%;
     text-align: center;
-    color: var(--accent1-color);
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
     padding-top: 7px;
     padding-bottom: 7px;
     font-family: var(--heading-font);
     border-radius: 25px;
-    border-color: var(--accent2-color);
     border-style: solid;
 }
 
