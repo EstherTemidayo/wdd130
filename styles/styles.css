@@ -84,8 +84,8 @@ aside {
 
 aside h2 {
     position: absolute;
-    left: 70px;
-    bottom: 450px;
+    top: 2rem;
+    left: 4rem;
     color: var(--main-color);
 }
 
@@ -96,9 +96,14 @@ aside img {
     display: block;
 }
 
-header, footer {
+header, footer, .grid {
     max-width: 840px;
     margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto 360px;
 }
 
 footer {
