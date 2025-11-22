@@ -54,7 +54,7 @@ h1 {
     padding: 1rem;
 }
 
-p {
+.grid p {
     padding: 1rem;
     color: var(--accent-color);
 }
@@ -110,9 +110,9 @@ footer {
     /*text-align: center;
     margin-top: 10px;
     border-top: 1px solid var(--accent-color);*/
+    color: var(--secondary-color);
     background-color: var(--footer-bg);
     padding: 2rem 1rem;
-    color: var(--secondary-color);
 }
 
 ul {
