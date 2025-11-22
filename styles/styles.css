@@ -5,20 +5,13 @@
     --border-color:rgb(185, 182, 182);
     --accent-color: black;
     --footer-bg: rgb(11, 100, 160);
+    --hover-color: rgb(199, 131, 67);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-a {
-    display: block;
-    color: var(--secondary-color);
-    text-decoration: none;
-    padding: 10px;
-    background-color: var(--main-color);
 }
 
 nav {
@@ -31,22 +24,30 @@ nav {
 }
 
 nav a {
+    display: flex;
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    background-color: var(--main-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: var(--hover-color);
+}
+
+a {
+    color: var(--secondary-color);
     display: block;
-    padding: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: var(--footer-bg);
 }
 
 h1 {
     color: var(--main-color);
-}
-
-main img {
-    width: 150px;
-    height: var(--height);
-    border: 1px solid var(--border-color);
-    padding: 2px;
-    box-shadow: 0 0 10px var(--accent-color);
-    float: right;
-    position: relative;
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--main-color);
 }
 
 h1 {
@@ -62,6 +63,16 @@ main {
     max-width: 840px;
 }
 
+main img {
+    width: 150px;
+    height: var(--height);
+    border: 1px solid var(--border-color);
+    padding: 2px;
+    box-shadow: 0 0 10px var(--accent-color);
+    float: right;
+    position: relative;
+}
+
 aside {
     width: 20rem;
     color: #333;
@@ -71,6 +82,13 @@ aside {
     position: relative;
 }
 
+aside h2 {
+    position: absolute;
+    left: 70px;
+    bottom: 450px;
+    color: var(--main-color);
+}
+
 aside img {
     padding-left: 2rem;
     width: 80%;
@@ -78,17 +96,10 @@ aside img {
     display: block;
 }
 
-aside h2 {
-    position: absolute;
-    left: 70px;
-    bottom: 450px;
-    color: var(--main-color);
-    }
-
-    header, footer {
-        max-width: 840px;
-        margin: 0 auto;
-    }
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 
 footer {
     /*text-align: center;
