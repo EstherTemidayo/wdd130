@@ -113,6 +113,7 @@ footer {
     color: var(--secondary-color);
     background-color: var(--footer-bg);
     padding: 2rem 1rem;
+    text-align: center;
 }
 
 ul {
