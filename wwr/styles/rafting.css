@@ -282,22 +282,18 @@ h2 {
     gap: 6px;
 }
 
-/*.form-field {
-  border: none;
-  text-align: left;
-  margin-top: 15px;
-}
-
-.form-field legend {
-  font-weight: bold;
-  margin-bottom: 8px;
+.form-field .radio {
   display: block;
-}*/
-
-.form-field label {
-  display: block;
+  padding: 5px;
   margin: 6px 0;
   font-weight: normal;
+  margin-left: 2px;
+}
+
+.form-field .radio label {
+  margin: 6px 0;
+  font-weight: normal;
+  margin-left: 2px;
 }
 
 .form-field input[type="radio"] {
@@ -305,7 +301,7 @@ h2 {
 }
 
 /* CHECKBOX */
-.contact-form .form-field.checkbox {
+.contact-form .form-field .checkbox {
   margin-bottom: 5px;
 }
 
@@ -313,7 +309,7 @@ h2 {
 .contact-form .form-field.checkbox label {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 2px;
   margin: 4px 0;
   cursor: pointer;
 }
