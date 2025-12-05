@@ -86,18 +86,6 @@ nav, p, section, article {
     border-radius: 12px;
 }
 
-/*.hero article {
-    position: absolute;
-    bottom: 20px;
-    right: 25px;
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
-    padding: 10px;
-    width: 60%;
-    opacity: 0.7;
-}*/
-
-
 .hero h1 {
     position: absolute;
     top: 1px;
@@ -106,7 +94,6 @@ nav, p, section, article {
     text-align: center;
     opacity: 1;
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
     outline: var(--secondary-color);
     font-family: var(--heading-font);
     border-radius: 10px;
