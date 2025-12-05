@@ -40,39 +40,81 @@
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.
       4741290895936!2d3.407609775862909!3d6.461456893530109!2m3!1f0!2f0!3f0!3m2!1i1024
      !2i768!4f13.1!3m3!1m2!1s0x103bf5c83c828c09%3A0x30719b5d05a8808!2sFairship%20Limited!5e0!3m2!1sen!2sng!4v1764776164113!5m2!1sen!2sng"
-          width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </div>
 
       <div class="contact-form">
         <h2>Send us a message</h2>
-        <form action="#" method="post">
+
+        <form>
           <label for="name">Name</label>
-          <input id="name" name="name" type="text" required>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
           <label for="email">Email</label>
-          <input id="email" name="email" type="email" required>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
 
-          <fieldset class="form-field">
-            <div class="message_p">
-              <legend>Message Purpose</legend>
-            </div>
+          <div class="row">
+            <label class="purpose-label"><strong>Message<br>Purpose</strong></label>
+            <div class="purpose-options">
+              <label>
+                <input type="radio" id="general" name="purpose" value="general"> General Inquiry
+              </label>
 
-            <div class="radio">
-              <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
-              <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-              <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+              <label>
+                <input type="radio" id="reservation" name="purpose" value="reservation">Reservation
+                Question
+              </label>
+
+              <label>
+                <input type="radio" id="website" name="purpose" value="website"> Website Suggestion
+              </label>
             </div>
-          </fieldset>
+          </div>
 
           <label for="message">Message</label>
-          <textarea id="message" name="message" cols="30" rows="5" required>Type here</textarea>
+          <textarea id="message" name="message" cols="30" rows="5" required>Type here
+                      </textarea>
 
-          <div class="form-field checkbox">
-            <label><input type="checkbox" name="newsletter" value="yes">I will like to receive monthly newsletter from
-              you</label>
-          </div>
+          <label class="checkbox">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            Please Subscribe me to the monthly newsletter
+          </label>
+
+
+
+          <!---
+                      <fieldset class="form-field">
+                        <legend>Message Purpose</legend>
+            
+                        <fieldset class="form-field">
+                        <div class="message_p">
+                          <legend>Message Purpose</legend>
+                        </div>
+            
+                        <div class="radio">
+                          <label for="general">
+                            <input type="radio" id="general" name="purpose" value="general"> General Inquiry
+                          </label>
+            
+                          <label for="reservation">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            Reservation Question</label>
+            
+                          <label for="website">
+                            <input type="radio" id="website" name="purpose" value="website"> Website Suggestion
+                          </label>
+                        </div>
+                      </fieldset>
+                      --->
+
+          <!---Checkbox--->
+
+
+          <!---<div class="form-field checkbox">
+                        <label><input type="checkbox" name="newsletter" value="yes">I will like to receive monthly newsletter from
+                          you</label>
+                      </div>--->
 
           <button type="submit" class="button">Get in Touch</button>
         </form>
@@ -120,3 +162,15 @@
 </body>
 
 </html>
+
+<!---<div class="purpose-options">
+            <div class="radio">
+              <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+            </div>
+          </div>--->

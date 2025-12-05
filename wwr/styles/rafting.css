@@ -315,6 +315,113 @@ h2 {
   cursor: pointer;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  align-content: normal;
+  gap: 6px;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.purpose-label {
+  width: 130px;  
+  text-align: left;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.purpose-options label {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  padding-top: 15px;
+  margin-bottom: 10px; 
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px; 
+  padding: 0;
+  margin: 3px 0;
+}
+
+.checkbox input[type="checkbox"] {
+  margin: 0; 
+  align-content: end;     
+}
+
+/*.row {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  gap: 2px;
+  margin: 15px 0;
+  padding-right: 2px;
+}
+
+.purpose-options .radio {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.purpose-options .radio .label {
+  display: flex;
+  align-items: center;
+}
+
+.purpose-options .radio label {
+  display: flexbox;
+  width: 200px;
+  margin-bottom: 8px; spacing between options 
+}*/
+
+/* "Message Purpose" label */
+.purpose-label {
+  width: 100px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+/* Radio buttons area */
+.purpose-options {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Make radio + label close and aligned */
+.purpose-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+/* Radio button spacing fix */
+.purpose-options input[type="radio"] {
+  margin: 0;
+}
+
+/* Checkbox — same line with message */
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+  margin: 0;
+}
+
 /* BUTTON */
 .button {
   margin-top: 5px;
